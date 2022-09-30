@@ -1,0 +1,364 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+:root {
+  --swiper-theme-color: none !important;
+}
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;        
+        color: #fff;
+        font-family: 'Oswald', sans-serif;
+      }
+
+      body {
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+      }
+
+      .header {
+        height: 10%;
+        background-color: #333;        
+        position: relative;
+        display: flex;
+        align-items: baseline;
+      }
+
+      h1#logo {
+        margin: 2rem;
+        color: #fff !important;
+        width: 50%;
+      }
+
+      .link {
+        margin: 1rem;
+        font-size: 1.5rem;
+        text-decoration: none;
+      }      
+    
+      .content {
+        flex-grow: 1;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-pagination-horizontal {
+        position: inherit !important;
+        bottom: 0 !important;
+
+      }
+
+      .swiper-pagination a {
+        background-color: #333;
+      }
+      
+      .swiper-pagination {
+        width: 50%;
+        margin: 0 auto;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: flex-end !important;
+      }
+
+      .swiper-pagination-bullet {
+        text-align: center;
+        opacity: 1;
+        width: auto !important;
+        height: 1.5rem;
+        text-align: center;
+        line-height: 10px;
+        font-size: 1.5rem;
+        margin: 0 1rem !important;
+      }      
+      .swiper-pagination-bullet-active,.swiper-pagination-bullet {
+        color: white !important;
+      }
+
+      .icon {
+        width: 50px;
+        height: auto;
+      }
+      
+      #link1 {                
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("/assets/imgs/shaking\ hands-min.jpg");        
+        background-position: center;
+        background-size: cover; 
+
+      }
+      section.home{  
+        width: 80%;      
+        font-size: 1.5rem;
+      }
+      
+      blockquote {
+        font-size: 1.25rem;
+        word-wrap: break-word;
+      }
+
+      .services {
+        width: 80%;
+        margin: 1rem auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+      }
+
+      #link2 {
+        background-color: #fff;
+      }
+
+      .about p,.about h3 {
+        color:black;
+      }      
+
+      .goals, .strategy {
+        width: 40%;
+        margin: 2rem auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .goals-1, .goals-2 {
+        display: flex;
+      }
+
+      .goals-1 .card,.strategy .card {
+        width: 50%;
+        height: auto;
+        margin: 1rem;
+      }
+
+      .card {
+        font-size: 1.25rem;
+      }      
+
+      .team,.meeting {
+        width: 40%;
+        height: auto;
+      }
+
+      /* WHO WE ARE CONTENT */
+      #link3 {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .cropped {
+        position: absolute;
+        top: 0;        
+        height: 60%;
+        width: 100%;
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("/assets/imgs/businessmen-min.jpg");
+        background-size: cover;
+        font-size: 1.25rem;
+        text-align: left;
+      }
+
+      .create{
+        width: 80%;
+        height: auto;
+        margin: auto;
+      }
+
+      .create h2{
+        font-size: 2rem;
+      }
+
+      .create h2,.create p {
+        width: 60%;
+        height: auto;
+        margin: 1rem auto;
+        text-align: left;
+        word-wrap: break-word;
+      }
+
+      button.contact, button.start-today {
+        margin: 0 auto 0 20%;
+        padding: 1rem;
+        border-radius: 5px;
+        border: 2px solid white;
+        font-size: 1.25rem;
+        background-color: rgba(0,0,0,0);
+      }
+
+      .who-we-are {      
+        position: absolute;  
+        bottom: 0;
+        margin: 0 auto;
+        background-color: white;
+        width: 100%;
+        height: 40%;
+        /* flex-grow: 1; */
+        display: flex;
+        z-index: -99;
+      }
+
+      .who-we-are .card,.who-we-are .benefits,.testimonial {
+        width: 25%;
+        margin: 0 0.5rem;
+      }      
+
+      .who-we-are .card h2,.who-we-are .card p {
+        color: black;
+      }
+
+      .benefits1, .benefits2 {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .ben1, .ben2, .ben3,.ben4 {
+        margin: 0.5rem;
+      }
+
+      .ben1 h3, .ben2 h3, .ben3 h3,.ben4 h3{
+        color: #6f4e37;
+      }
+
+      .benefits-icon {
+        width: 60px;
+        height: 60px;
+      }
+
+      .testimonial h2 {
+        color: black;
+        font-size: 1.5rem;
+        text-align: left;
+        margin-bottom: 0.5rem;
+      } 
+
+      .testimonial p{
+        font-size: 1.25rem;
+        color: black;
+        text-align: left;
+        display: block;
+      }
+
+      .ceo {
+        margin: 1rem auto;
+        width: 100%;
+        height: auto;        
+        display: flex;
+      }  
+
+      .ceo-text h3,.ceo-text p {
+        color: black;
+        text-align: left;
+        margin: 0 auto;
+
+      }
+
+      .cropped-img {
+        width: 50%;
+        height: auto;
+        object-position: 0 -25% 0 -25%;
+      }
+
+      .cropped-img img {
+        margin: auto;
+        width: 100px;
+        height: 100px;        
+        border-radius: 100%;
+        object-fit: cover;
+
+      }
+
+      /* CONTACT CONTACT*/
+
+      #link4 {
+        background-color: #fff;
+        width: 100%;
+        height: auto;
+      }
+
+      .cropped-2 {
+        position: absolute;
+        top: 0;        
+        height: 70%;
+        width: 100%;
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("/assets/imgs/climbing\ stairs-min.jpg");
+        background-size: cover;
+        font-size: 1.25rem;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+      }
+      
+      .create2 div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        word-wrap: break-word;
+      }
+
+      .create2 div button {
+        border: 2px solid white;
+        margin: 0 auto;
+      }
+
+      .contact-info {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 30%;
+        background-color: #333;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+      }
+
+
+      .contact-icons {
+        width: 80%;
+        height: 30%;
+        display: flex;
+        margin: 0 auto;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .contact-icons i {
+        color: #888;   
+        margin: 0 1rem;
+      }
+      

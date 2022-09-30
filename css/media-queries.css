@@ -1,0 +1,204 @@
+@media only screen and (max-width: 1100px) { 
+.cropped-img img{
+  width: 75px;
+  height: 75px;
+}
+.create {
+  width: 100%;
+}
+}
+
+@media only screen and (max-width: 1000px) {  
+
+.goals-1,.goals-2 {
+  flex-direction: column;
+}
+
+.switch {
+  display: flex;
+}
+
+}
+
+@media only screen and (max-width: 825px) {
+  
+  ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent; 
+  } 
+
+  .header {
+    height: 20%;
+  }
+
+  .cropped-img img {
+      width: 50px;
+      height: 50px;
+  }
+
+  .create, .create p {
+    width: 90%;
+    height: auto;
+  } 
+
+  .create h2,.create p {
+    text-align: center;
+  }
+
+  .create2 {
+    width: 80%;
+    word-wrap: break-word;
+  }  
+
+  .services,.switch {
+    flex-direction: column;
+  }
+  .goals, .strategy {
+    width: 80%;
+  }  
+
+  .cropped {
+    height: 55%;
+  }
+  
+  .who-we-are {
+  height: 45%;
+  line-height: 1.2;
+  font-size: 1rem;
+  }
+  
+  .who-we-are .card h2 {
+    font-size: 1.25rem;
+  }
+  
+  .benefits1,.benefits2,.ceo {
+    flex-direction: column;
+  }    
+  
+  .who-we-are .card, .who-we-are .benefits, .testimonial {
+    margin: 1rem 0.5rem;
+  }
+} 
+
+@media only screen and (max-width: 680px) {  
+  #logo {
+    display: inline;
+  }
+
+  .header {
+    width: 100%;
+    top:0;
+    position: fixed;
+    z-index: 999;
+  }  
+
+  .swiper-pagination {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  } 
+
+.swiper-pagination {
+  position: absolute;
+  top: 7%;
+  height: 10%;
+}
+
+.swiper-pagination-bullet {
+  padding: 1rem;
+}
+
+.services,.create {
+  margin-top: 30%;
+}
+
+.create h2,.create p{
+  width: 80%;
+  text-align: center;
+}
+}
+
+@media only screen and (max-width: 580px) {
+  .create{
+    width: 100%;
+  }
+
+  .services,.create {
+    margin-top: 40%;
+  }  
+
+.swiper-pagination-bullets {
+  text-align: end !important;
+  right: 0;
+  width: 40% !important;
+
+}
+
+.swiper-pagination{
+  margin: 0 0 0 auto;
+}
+  
+}
+
+@media only screen and (max-width: 440px) {  
+
+.services,.create {
+    margin-top: 50%;
+  }  
+
+  .who-we-are .card, .who-we-are .benefits, .testimonial {
+    margin: 0.5rem;
+}
+}
+
+@media only screen and (max-width: 416px) {
+  .swiper-pagination-bullets {
+    width: 50% !important;  
+  }  
+
+  .services,.create {
+    margin-top: 60%;
+  }  
+
+  .cropped {
+    height: 60%;
+  }
+  
+  .who-we-are {
+  height: 40%;
+  line-height: 1.2;
+  font-size: 1rem;
+  }
+
+  .create {
+    font-size: 1.25rem;
+  }
+  .create h2 {
+    font-size: 1.5rem;
+
+  }
+  .who-we-are {
+    padding: 1rem 0.5rem;
+  }
+
+  .who-we-are .card p, .who-we-are .benefits p, .testimonial p {
+    font-size: 1rem;
+  }
+
+  .contact-icons {
+    width: 90%;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .contact-icons,.contact-icons p {
+    margin: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 335px) {  
+  .swiper-pagination-bullets {
+    width: 60% !important;
+
+  }  
+}
